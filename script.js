@@ -1,9 +1,9 @@
 // Product data
 const products = [
-  { id: 1, name: "Bouquet 1", price: 25, image: "image/Flower.jpg" },
-  { id: 2, name: "Bouquet 2", price: 30, image: "image/IMG_5764.JPG" },
-  { id: 3, name: "Bouquet 3", price: 28, image: "image/IMG_5765.JPG" },
-  { id: 4, name: "Bouquet 4", price: 31, image: "image/IMG_5768.JPG" }
+  { id: 1, name: "Bouquet 1", price: 25, image: "Flower.jpg" },
+  { id: 2, name: "Bouquet 2", price: 30, image: "IMG_5764.JPG" },
+  { id: 3, name: "Bouquet 3", price: 28, image: "IMG_5765.JPG" },
+  { id: 4, name: "Bouquet 4", price: 31, image: "IMG_5768.JPG" }
 ];
 
 // Cart
