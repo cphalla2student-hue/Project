@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shop</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h2>PION</h2>
+  <nav>
+    <a href="#catalog">Catalog</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Flower Delivery 24/7</h1>
+    <p>We deliver beautiful bouquets in 60 minutes</p>
+    <button class="btn" onclick="scrollToCatalog()">Shop Now</button>
+  </div >
+  <img src="image/pngtree-fresh-white-daisy-bouquet-with-bright-yellow-centers-png-image_20587377.png" width="500"  height="500" alt="Flowers">
+</section>
+
+<!-- Catalog -->
+<section id="catalog" class="catalog">
+  <h2>Catalog</h2>
+  
+   <div class="grid" > 
+    <img src="image/Flower.jpg"width="320" height="300" alt="...">
+    <img src="image/IMG_5764.JPG" width="320" height="300" alt="...">
+    <img src="image/IMG_5765.JPG" width="320" height="300" alt="...">
+    <img src="image/IMG_5768.JPG" width="320" height="300" alt="..."> 
+   </div>
+
+  <div class="grid" id="product-list"  >
+       
+    <!-- Products will be added by JS -->
+  <div>
+</section>
+
+<!-- Cart -->
+<div class="cart">
+   <h3>Shopping Cart</h3>
+  <ul id="cart-items"></ul>
+  <p><b>Total:</b> <span id="total">0</span> $</p>
+</div>
+
+<!-- Order Form -->
+<section id="order"> 
+  <h2>Order Now</h2>
+  <input type="text" id="name" placeholder="Your Name">
+  <input type="text" id="phone" placeholder="Phone Number">
+  <button class="btn" onclick="order()">Submit Order</button>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="footer">
+  <h2>Contact</h2>
+  <p>Address: Phnom Penh City</p>
+  <p>Phone: +855 123 456 789</p>
+</section>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
